@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.calcultor_container{
+
+    border: 2px solid black;
+    width: 30rem;
+    height: 35rem;
+    margin: 2rem auto;
+    
+}
+.display{
+    height: 5rem;
+    margin: 2rem;
+    border: 2px gray solid;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    word-wrap: break-word;
+}
+
+.btn{
+    width: 7rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.keypad{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    gap:1rem; 
+}
+
+.btn:hover{
+    background-color: lightcoral;
+}
+
+.btn:active{
+    background-color: green;
+}
